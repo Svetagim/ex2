@@ -1,48 +1,60 @@
+/*------ general ---------------------------------------------------*/
+
 * {
     margin:0;
     padding:0;
-/*    border:1px solid black*/
+    font-family: sans-serif,   Arial;
 }
+
+a{text-decoration: none;}
+
+h2{
+    margin-bottom: 40px;
+    padding-top: 80px;
+    font-size: 35px;
+    text-align: center;
+    color: #2d3950;
+}
+
+/*------ header ----------------------------------------------------*/
 
 header{
     display: block;
     background-color: #f6f9f9;
     height:100px;
-
 }
-
 #logo{
-    margin-left: 200px;
-    margin-top: 35px;
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-top: 40px;
     padding-left: 60px;
     display: inline-block;
-    background-image: url(../images/logo.png);
-    height: 40px;
-    width: 200px;
+    background-image: url(../images/pinksupermanlogo.png);
     background-repeat: no-repeat;
     color: #264951;
     font-size: 30px;
 }
  nav{
-     margin-top: 35px;
+     margin-top: 40px;
+     margin-bottom: 40px;
      display: inline-block;
      font-size: 22px;
+     margin-left: 80px;
 }
-
-a {
+a.title_links{
     text-decoration: none;
     color: #264951;
     font-size: 22px;
     display: inline-block;
     font-weight: bold;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-a:hover {
+a.title_links:hover {
    color: #a9a9a9;
 }
 
-
+/*------ photo section ------------------------------------------------*/
 
 #photo_section{
     background-image: url(../images/bg_image.jpg);
@@ -50,60 +62,107 @@ a:hover {
     height: 800px;
     display:block;
     color: #ffffff;
+    text-align: center;
 }
 
 h1 {
     font-size: 70px;
-    margin-left: 500px;
+    text-align: center;
     margin-top: 200px;
     margin-bottom: 40px;
     display: inline-block;
     border-bottom: 1px solid #15a4fa;
 }
-h3{
-     margin-left: 540px;
-     font-size: 22px;
- }
+
+.slogen{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
 
 .link_github{
     text-decoration:none;
     color: #ffffff;
-    margin-left: 620px;
     border:1px solid #15a4fa;
-    margin-top: 60px;
     font-size: 22px;
     padding: 22px;
 }
-.second_section{
-    background-color: #f6f9f9;
-    height: 340px;
-}
-h2{
-    margin-left: 620px;
-    margin-bottom: 40px;
-    padding-top: 80px;
-    font-size: 30px;
-}
-.about_myself{
+
+/*------ about myself section ------------------------------*/
+
+.about_myself_section{background-color: #f6f9f9;}
+
+
+.about_myself_content{
     font-size: 20px;
-    margin-left: 540px;
-    align-content: center;
+    text-align: center;
+    color:#999999;
+    line-height: 150%;
+    padding-bottom: 110px;
 }
+
+/*------ skills section -----------------------------------*/
 
 h2.skills{
     margin-top: 75px;
-    margin-left: 530px;
-    margin-bottom: 80px;
+    text-align: center;
+    margin-bottom: 70px;
 }
-img{
+.skills_img {
     height: 100px;
     width: 100px;
-    margin-left: 355px;
     margin-right: 35px;
+    margin-left: 355px;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
+ul{
+    font-size: 20px;
+    margin-bottom: 110px;
+}
+/*------ footer -------------------------------------------*/
+
 footer{
-    margin-top: 115px;
+    padding-top: 25px;
     background-color: #f6f9f9;
     display: block;
     height: 90px;
+}
+
+.footer_prop{
+    height: 100%;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    height: 40px;
+}
+
+.facebook{
+    background-image: url(../images/facebook.png);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.linkedin{
+    background-image: url(../images/linkedin.png);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.my_mail{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
+    color:#999999;
 }
