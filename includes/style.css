@@ -119,6 +119,7 @@ h1 {
 /*------ skills section -----------------------------------*/
 
 .skills_section{
+    display: block;
     width: 1600px;
 }
 h2.skills{
@@ -147,7 +148,7 @@ footer{
     padding-top: 25px;
     background-color: #f6f9f9;
     height: 90px;
-    width: 1699px;
+    width: 1600px;
 }
 
 .footer_prop{
